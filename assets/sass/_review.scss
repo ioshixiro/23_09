@@ -1,0 +1,40 @@
+.reviews{
+    width: 90vw;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    h1{
+        font-weight: 300;
+        font-size: 34px;
+        color: #000;
+    }
+
+    .reviews_list{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background: #f0f4f8;
+        border-radius: 120px 6px;
+        
+        .reviews{
+            min-width: 210px;
+            width: 400px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: baseline;
+            margin: 0 auto;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

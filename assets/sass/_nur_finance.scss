@@ -1,0 +1,80 @@
+.nur_finance{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 112px;
+
+    .nur_finance_context{
+        width: 580px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        gap: 20px;
+
+        h1{
+            font-weight: 700;
+            font-size: 44px;
+            color: #000;
+
+            span{
+                color: #0000de;
+            }
+        }
+
+        p{
+            font-weight: 300;
+            font-size: 18px;
+            color: #000;
+        }
+
+        a button{
+            border-radius: 28px 0;
+            width: 240px;
+            height: 68px;
+            background: #0000de;
+            border: 1px solid #0000de;
+
+            font-weight: 500;
+            font-size: 16px;
+            text-align: center;
+            color: #fff;
+        }
+    }
+
+    img{
+        width: 500px;
+        border: 1px solid black;
+    }
+}
+
+@media(max-width: 1210px){
+    .nur_finance{
+        flex-direction: column;
+        gap: 0px;
+
+        .nur_finance_context{
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width: 640px){
+    .nur_finance_context{
+        width: 90% !important;
+    }
+}
+
+@media(max-width: 555px){
+    .nur_finance img{
+        width: 90%;
+    }
+}
+
+@media(max-width: 425px){
+    .nur_finance_context h1{
+        font-size: 10.35vw !important;
+    }
+}
